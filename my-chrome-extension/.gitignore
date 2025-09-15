@@ -1,0 +1,20 @@
+# Ignora arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Ignora arquivos do VS Code
+.vscode/
+
+# Ignora arquivos de build (caso use futuramente)
+dist/
+build/
+
+# Ignora node_modules (caso use algum bundler no futuro)
+node_modules/
+
+# Ignora arquivos de log
+*.log
+
+# Ignora arquivos compactados temporários
+*.zip
+*.tar.gz
