@@ -77,8 +77,8 @@ Pull requests são bem-vindos! Para grandes mudanças, abra uma issue primeiro p
 ***
 
 ## 📷 Screenshots
-![imagemInicial](image.png)
-![exDeRetorno](image-1.png)
+![imagemInicial](telaInicial.png)
+![exDeRetorno](exdeRetorno.png)
 [1](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_01B-4_Schwarz_paper.pdf)
 [2](https://onlinelibrary.wiley.com/doi/10.1002/sec.1433)
 [3](https://www.semanticscholar.org/paper/85164fc82cbefa647bd1502dbf0e771092290cfd)
