@@ -16,8 +16,5 @@
   "background": {
     "service_worker": "src/background/service-worker.js"
   },
-  "permissions": ["storage"],
-  "host_permissions": [],
-  "content_scripts": [],
-  "options_page": ""
+  "permissions": ["storage"]
 }
