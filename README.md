@@ -63,8 +63,8 @@ bootcamp2-chrome-ext-mrpandaxy/
 
 ## 📷 Exemplo de uso
 
-![imagemInicial](telaInicial.png)
-![exDeRetorno](exdeRetorno.png)
+![imagemInicial](.\docs\telaInicial.png)
+![exDeRetorno](.\docs\exdeRetorno.png)
 
 ```
 <img src="docs/telainicial.png" alt="Popup da extensão" />
