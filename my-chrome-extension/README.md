@@ -1,6 +1,10 @@
+Seu README pode ficar assim, já com os links reais da sua release e da landing page:
+
+***
+
 # Motivador Diário
 
-Uma extensão simples para Google Chrome que exibe mensagens motivacionais no popup, ajudando você a se manter inspirado durante o uso do navegador.
+Uma extensão para Google Chrome que exibe mensagens motivacionais no popup, ajudando você a se manter inspirado durante o uso do navegador.
 
 ***
 
@@ -12,20 +16,20 @@ Uma extensão simples para Google Chrome que exibe mensagens motivacionais no po
 
 ## 🚀 Instalação
 
-1. **Baixe ou clone este repositório:**
+1. Baixe ou clone este repositório:
    ```bash
    git clone https://github.com/mrpandaxy/bootcamp2-chrome-ext-mrpandaxy.git
    ```
-   Ou baixe o ZIP e extraia.
+   Ou baixe o ZIP da release.
 
-2. **Abra o Chrome e acesse:**
+2. Abra o Chrome e acesse:
    ```
    chrome://extensions
    ```
 
-3. **Ative o Modo do desenvolvedor** (canto superior direito).
+3. Ative o Modo do desenvolvedor (canto superior direito).
 
-4. **Clique em "Carregar sem compactação"** e selecione a pasta do projeto (onde está o arquivo `manifest.json`).
+4. Clique em "Carregar sem compactação" e selecione a pasta do projeto (onde está o arquivo `manifest.json`).
 
 5. O ícone da extensão aparecerá ao lado da barra de endereços. Clique nele para abrir o popup e usar!
 
@@ -61,22 +65,7 @@ my-chrome-extension/
 
 ***
 
-## 🔒 Permissões
-- `storage`: usada apenas para possíveis expansões futuras. Nenhum dado pessoal é coletado.
-
-***
-
-## 📄 Licença
-Este projeto está licenciado sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
-
-***
-
-## 🙋‍♂️ Contribuição
-Pull requests são bem-vindos! Para grandes mudanças, abra uma issue primeiro para discutir o que você gostaria de modificar.
-
-***
-
-## 📷 Screenshots
+## 📷 Exemplo de uso
 ![imagemInicial](telaInicial.png)
 ![exDeRetorno](exdeRetorno.png)
 [1](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_01B-4_Schwarz_paper.pdf)
@@ -95,3 +84,50 @@ Pull requests são bem-vindos! Para grandes mudanças, abra uma issue primeiro p
 [14](http://arxiv.org/pdf/1802.08391.pdf)
 [15](http://arxiv.org/pdf/2412.00726.pdf)
 [16](https://pmc.ncbi.nlm.nih.gov/articles/PMC5018380/)
+
+
+
+***
+
+## 🔒 Permissões
+- `storage`: usada apenas para possíveis expansões futuras. Nenhum dado pessoal é coletado.
+
+***
+
+## 📄 Licença
+
+Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
+
+
+***
+
+## 🌐 Landing Page
+
+Acesse a página de apresentação da extensão:  
+[https://mrpandaxy.github.io/bootcamp2-chrome-ext-mrpandaxy/](https://mrpandaxy.github.io/bootcamp2-chrome-ext-mrpandaxy/)
+
+***
+
+## 📦 Download da Release
+
+Baixe a versão mais recente da extensão:  
+[https://github.com/mrpandaxy/bootcamp2-chrome-ext-mrpandaxy/releases/tag/v1.0.0](https://github.com/mrpandaxy/bootcamp2-chrome-ext-mrpandaxy/releases/tag/v1.0.0l)
+
+***
+
+Se quiser, pode copiar e colar esse modelo, ajustando os nomes das imagens se necessário! Se quiser revisar mais algum detalhe, só avisar.
+
+[1](https://www.semanticscholar.org/paper/425c821e64176fcc80df8e0c76d04db1719c7fc0)
+[2](https://ieeexplore.ieee.org/document/10928130/)
+[3](https://openresearchsoftware.metajnl.com/article/10.5334/jors.223/)
+[4](https://academic.oup.com/bioinformatics/article/31/1/134/2366208)
+[5](https://dl.acm.org/doi/10.1145/3194793.3194797)
+[6](https://ieeexplore.ieee.org/document/9466470/)
+[7](https://muse.jhu.edu/article/572803)
+[8](https://www.semanticscholar.org/paper/270a701514f17e3167ae4630ac75734d04563e6d)
+[9](http://journals.uic.edu/ojs/index.php/ojphi/article/view/7633)
+[10](https://biss.pensoft.net/article/143032/)
+[11](https://arxiv.org/abs/2208.01317)
+[12](https://arxiv.org/pdf/2003.12912.pdf)
+[13](https://arxiv.org/html/2502.18440v1)
+[14](https://arxiv.org/pdf/2308.09940.pdf)
