@@ -2,26 +2,81 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Motivador Diário — Extensão Chrome</title>
   <style>
-    body { font-family: Arial, sans-serif; max-width: 600px; margin: 40px auto; padding: 20px; background: #f9f9f9; }
-    h1 { color: #2d8cf0; }
-    img { max-width: 100%; margin: 16px 0; border-radius: 8px; }
-    .btn { display: inline-block; padding: 10px 20px; background: #2d8cf0; color: #fff; border-radius: 5px; text-decoration: none; margin: 10px 0; }
-    ul { margin-bottom: 24px; }
-    .permissoes { background: #e6f7ff; padding: 10px; border-radius: 5px; }
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 24px;
+      background: #f9f9f9;
+      color: #222;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+      border-radius: 10px;
+    }
+    h1 {
+      color: #2d8cf0;
+      margin-bottom: 0.2em;
+    }
+    h2 {
+      color: #1a5ca0;
+      margin-top: 2em;
+      margin-bottom: 0.5em;
+    }
+    img {
+      max-width: 100%;
+      margin: 16px 0;
+      border-radius: 8px;
+      box-shadow: 0 1px 6px rgba(0,0,0,0.07);
+      display: block;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: #2d8cf0;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+      margin: 10px 0;
+      font-weight: bold;
+      transition: background 0.2s;
+    }
+    .btn:hover {
+      background: #1a5ca0;
+    }
+    ol {
+      margin-bottom: 24px;
+      padding-left: 1.2em;
+    }
+    ul {
+      margin-bottom: 24px;
+      padding-left: 1.2em;
+    }
+    .permissoes {
+      background: #e6f7ff;
+      padding: 10px 16px;
+      border-radius: 5px;
+      margin-bottom: 24px;
+    }
+    @media (max-width: 600px) {
+      body {
+        padding: 8px;
+        max-width: 98vw;
+      }
+    }
   </style>
 </head>
 <body>
   <h1>Motivador Diário</h1>
-  <p>Extensão para Google Chrome (Manifest V3) — projeto do Bootcamp II.</p>
+  <p><strong>Extensão para Google Chrome (Manifest V3)</strong> — projeto do Bootcamp II.</p>
 
   <h2>O que faz?</h2>
   <p>Mostra uma mensagem motivacional diferente toda vez que você clica no botão do popup. Simples, leve e inspirador!</p>
 
   <h2>Como instalar</h2>
   <ol>
-    <li>Baixe o <a href="https://github.com/mrpandaxy/bootcamp2-chrome-ext-mrpandaxy/releases/latest" class="btn">ZIP da extensão</a> ou clone o repositório.</li>
+    <li>Baixe o <a href="https://github.com/mrpandaxy/bootcamp2-chrome-ext-mrpandaxy/releases/tag/v1.0.0" class="btn">ZIP da extensão</a> ou clone o repositório.</li>
     <li>Acesse <code>chrome://extensions</code> no Chrome.</li>
     <li>Ative o modo desenvolvedor.</li>
     <li>Clique em "Carregar sem compactação" e selecione a pasta do projeto.</li>
@@ -29,8 +84,8 @@
   </ol>
 
   <h2>Exemplo de uso</h2>
-  <img src=".\telainicial.png" alt="Popup da extensão" />
-  <img src="exdeRetorno.png" alt="Exemplo de mensagem motivacional" />
+  <img src="../telainicial.png" alt="Popup da extensão" />
+  <img src="../exdeRetorno.png" alt="Exemplo de mensagem motivacional" />
 
   <h2>Permissões</h2>
   <div class="permissoes">

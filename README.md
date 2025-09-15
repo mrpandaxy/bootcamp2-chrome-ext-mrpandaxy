@@ -1,7 +1,3 @@
-Seu README pode ficar assim, já com os links reais da sua release e da landing page:
-
-***
-
 # Motivador Diário
 
 Uma extensão para Google Chrome que exibe mensagens motivacionais no popup, ajudando você a se manter inspirado durante o uso do navegador.
@@ -20,7 +16,7 @@ Uma extensão para Google Chrome que exibe mensagens motivacionais no popup, aju
    ```bash
    git clone https://github.com/mrpandaxy/bootcamp2-chrome-ext-mrpandaxy.git
    ```
-   Ou baixe o ZIP da release.
+   Ou baixe o ZIP da [release mais recente](https://github.com/mrpandaxy/bootcamp2-chrome-ext-mrpandaxy/releases/tag/v1.0.0).
 
 2. Abra o Chrome e acesse:
    ```
@@ -43,7 +39,9 @@ Uma extensão para Google Chrome que exibe mensagens motivacionais no popup, aju
 
 ## 🗂️ Estrutura do Projeto
 ```
-my-chrome-extension/
+bootcamp2-chrome-ext-mrpandaxy/
+├─ docs/
+│  └─ index.html
 ├─ src/
 │  ├─ popup/
 │  │  ├─ popup.html
@@ -56,36 +54,22 @@ my-chrome-extension/
 │  ├─ icon32.png
 │  ├─ icon48.png
 │  └─ icon128.png
-├─ docs/
-│  └─ index.html
 ├─ manifest.json
 ├─ README.md
-└─ LICENSE
+├─ LICENSE
 ```
 
 ***
 
 ## 📷 Exemplo de uso
+
 ![imagemInicial](telaInicial.png)
 ![exDeRetorno](exdeRetorno.png)
-[1](https://www.ndss-symposium.org/wp-content/uploads/2019/02/ndss2019_01B-4_Schwarz_paper.pdf)
-[2](https://onlinelibrary.wiley.com/doi/10.1002/sec.1433)
-[3](https://www.semanticscholar.org/paper/85164fc82cbefa647bd1502dbf0e771092290cfd)
-[4](https://www.semanticscholar.org/paper/425c821e64176fcc80df8e0c76d04db1719c7fc0)
-[5](https://www.semanticscholar.org/paper/4bd60b6f054d5de051b5b136214c2b3be6fc1328)
-[6](https://www.semanticscholar.org/paper/f3bb73021829ca540c7eb237aa5e4e95ba544d6e)
-[7](https://www.semanticscholar.org/paper/14af0ec9aeba95d9e10b9fb2b3b2b1bbccbc8d94)
-[8](http://link.springer.com/10.1007/BF00741633)
-[9](https://ieeexplore.ieee.org/document/8812028/)
-[10](https://nv.nltu.edu.ua/index.php/journal/article/view/2088)
-[11](https://arxiv.org/html/2407.21621v1)
-[12](https://arxiv.org/pdf/2311.18057.pdf)
-[13](https://arxiv.org/pdf/2312.03250.pdf)
-[14](http://arxiv.org/pdf/1802.08391.pdf)
-[15](http://arxiv.org/pdf/2412.00726.pdf)
-[16](https://pmc.ncbi.nlm.nih.gov/articles/PMC5018380/)
 
-
+```
+<img src="docs/telainicial.png" alt="Popup da extensão" />
+<img src="docs/exdeRetorno.png" alt="Exemplo de mensagem motivacional" />
+```
 
 ***
 
@@ -95,39 +79,29 @@ my-chrome-extension/
 ***
 
 ## 📄 Licença
-
 Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
-
 
 ***
 
 ## 🌐 Landing Page
-
-Acesse a página de apresentação da extensão:  
+Acesse a página de apresentação da extensão:
 [https://mrpandaxy.github.io/bootcamp2-chrome-ext-mrpandaxy/](https://mrpandaxy.github.io/bootcamp2-chrome-ext-mrpandaxy/)
 
 ***
 
 ## 📦 Download da Release
+Baixe a versão mais recente da extensão:
+[https://github.com/mrpandaxy/bootcamp2-chrome-ext-mrpandaxy/releases/tag/v1.0.0](https://github.com/mrpandaxy/bootcamp2-chrome-ext-mrpandaxy/releases/tag/v1.0.0)
 
-Baixe a versão mais recente da extensão:  
-[https://github.com/mrpandaxy/bootcamp2-chrome-ext-mrpandaxy/releases/tag/v1.0.0](https://github.com/mrpandaxy/bootcamp2-chrome-ext-mrpandaxy/releases/tag/v1.0.0l)
-
-***
-
-Se quiser, pode copiar e colar esse modelo, ajustando os nomes das imagens se necessário! Se quiser revisar mais algum detalhe, só avisar.
-
-[1](https://www.semanticscholar.org/paper/425c821e64176fcc80df8e0c76d04db1719c7fc0)
-[2](https://ieeexplore.ieee.org/document/10928130/)
-[3](https://openresearchsoftware.metajnl.com/article/10.5334/jors.223/)
-[4](https://academic.oup.com/bioinformatics/article/31/1/134/2366208)
-[5](https://dl.acm.org/doi/10.1145/3194793.3194797)
-[6](https://ieeexplore.ieee.org/document/9466470/)
-[7](https://muse.jhu.edu/article/572803)
-[8](https://www.semanticscholar.org/paper/270a701514f17e3167ae4630ac75734d04563e6d)
-[9](http://journals.uic.edu/ojs/index.php/ojphi/article/view/7633)
-[10](https://biss.pensoft.net/article/143032/)
-[11](https://arxiv.org/abs/2208.01317)
-[12](https://arxiv.org/pdf/2003.12912.pdf)
-[13](https://arxiv.org/html/2502.18440v1)
-[14](https://arxiv.org/pdf/2308.09940.pdf)
+[1](https://ieeexplore.ieee.org/document/10928130/)
+[2](https://online-journals.org/index.php/i-jim/article/view/45725)
+[3](https://ieeexplore.ieee.org/document/10265943/)
+[4](https://onlinelibrary.wiley.com/doi/10.1002/sec.1433)
+[5](https://www.semanticscholar.org/paper/425c821e64176fcc80df8e0c76d04db1719c7fc0)
+[6](https://ieeexplore.ieee.org/document/8812028/)
+[7](https://doi.curvenote.com/10.25080/shinma-7f4c6e7-009)
+[8](https://www.semanticscholar.org/paper/4fe890428ee5b383efdccc77fba670130f1280d3)
+[9](https://arxiv.org/pdf/2312.03250.pdf)
+[10](https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2021EA001797)
+[11](https://arxiv.org/html/2502.18440v1)
+[12](https://arxiv.org/html/2407.21621v1)
